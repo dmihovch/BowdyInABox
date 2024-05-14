@@ -1,13 +1,13 @@
 .bowdy-pic {
-    display:none;
+    display: none;
 }
 #bowdy-pic {
     position: absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    height:300px;
-    width:auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: auto;
     border: 4px solid white;
     border-radius: 70px;
 }
