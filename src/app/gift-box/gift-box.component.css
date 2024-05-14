@@ -1,0 +1,24 @@
+#gift-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100dvh; /* Full viewport height */
+    transition: transform 0.3s ease;
+}
+#gift-button {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+    transition: transform 0.3s ease;
+}
+#gift-button img {
+    height:300px;
+    width:300px;
+}
+#gift-button:hover {
+    transform: scale(1.1);
+}
+.shift-down {
+    transform: translate(0px,200px);
+}

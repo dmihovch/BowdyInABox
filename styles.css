@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(30,30,30);
+    overflow: hidden;
+}
 /*Put your global styles here.  
 * Individual components can be styled locatlly
 */
