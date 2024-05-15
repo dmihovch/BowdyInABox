@@ -19,6 +19,10 @@ export class MainComponent extends EzComponent {
     }
     @Click("gift")
     turnDogOn() {
-        this.bowdy.showBowdy();
+        console.log("Click");
+        console.log(this.gift.getClicks());
+        if (this.gift.getClicks() === 5) {
+            this.bowdy.showBowdy();
+        }
     }
 }

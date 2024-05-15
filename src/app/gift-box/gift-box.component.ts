@@ -32,6 +32,10 @@ export class GiftBoxComponent extends EzComponent {
         }, 500);
     }
     explodeBox() {
+        this.clicks += 1;
         this.explode = true;
+    }
+    getClicks(): number {
+        return this.clicks;
     }
 }

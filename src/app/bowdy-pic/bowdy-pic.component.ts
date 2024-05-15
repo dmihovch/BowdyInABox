@@ -11,13 +11,13 @@ export class BowdyPicComponent extends EzComponent {
     @BindAttribute("bowdy-pic", "src")
     private bowdyUrl: string = getBowdyPicture();
 
-    @BindCSSClassToBoolean("bowdy-pic", "bowdy-pic")
-    private visibleBowdy: boolean = false;
+    @BindCSSClassToBoolean("img-wrapper", "bowdy-visible")
+    private invisibleBowdy: boolean = true;
 
     constructor() {
         super(html, css);
     }
     showBowdy() {
-        this.visibleBowdy = true;
+        this.invisibleBowdy = false;
     }
 }
